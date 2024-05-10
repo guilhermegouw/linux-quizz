@@ -1,0 +1,41 @@
+QUESTIONS ABOUT BASIC COMMANDS
+============================
+
+NAVIGATION
+==========
+
+navigation = {
+        'pwd': 'Print working directory',
+        'cd': 'Change directory',
+        'ls': 'List files in current directory',
+        'find': {
+            'basic usage': 'Find files in current directory',
+            'syntax': 'find <path> -<type> (d/f) -name <name>',
+        },
+        'less': 'Read a file one "page" at a time'
+}
+
+MAKING CHANGES
+==============
+
+making_changes = {
+    'touch': 'Create file or update timestamp',
+    'mkdir': {'basic usage': 'Create directory',
+              'syntax': 'mkdir <path>',
+              'advanced usage': {'create multiple directories': 'mkdir <path1> <path2> <path3>',
+                                 'create nested directories': 'mkdir -p <path1>/<path2>/<path3>'
+                            }
+             },
+    'rm': 'Remove file',
+    'rmdir': 'Remove directory',
+    'rm -rf': 'Remove directory and all its contents',
+    'mv': 'Move file or directory also rename it',
+    'cp': 'Copy file',
+}
+
+GETTING HELP
+============
+
+getting_help = {
+    'man': {'basic usage': 'Show Man page', 'syntax': 'man <command>'},
+
